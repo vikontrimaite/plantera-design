@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* (min-width : 320px) */
@@ -12,7 +12,7 @@ body {
 .hero-wrapper {
     background-image: url(../img/plant4.jpg);
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     /* background-repeat: ; */
     height: 100vh;
     /* position: a; */
@@ -137,7 +137,7 @@ header {
     
 }
 
-/* ABOUT */
+/* MISSION */
 .about-wrapper {
     background-image: url(../img/plant3.jpg);
     background-size: cover;
@@ -146,14 +146,28 @@ header {
     /* min-width: 500px; */
     width: 100%;
     opacity: 0.5;
-    width: 100%;
+    /* width: 100%; */
+    display: grid;
+    place-items: center;
+
+
 }
 
 .about-h1 {
     margin: 0;
+    /* color: black; */
+    /* opacity: 1; */
 }
 
-.something-wrapper {
+.about-parag {
+    margin: 0 3rem 0 3rem;
+    background-color: white;
+    padding: 1rem;
+}
+
+/* TEAM */
+.team-wrapper {
+    /* background: rgba(255, 0, 0, 0.5); */
     background-image: url(../img/plant1.jpg);
     background-size: cover;
     background-position: center;
@@ -162,8 +176,40 @@ header {
     width: 100%;
     opacity: 0.5;
     /* width: 100%; */
+    /* display: grid;
+    place-items: center; */
 }
 
+.all-members-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.member-box {
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr;
+    grid-area: 
+    "img" "name"
+    "img" "info";
+    border: 2px solid black;
+    margin: 1rem;
+}
+
+.member-img {
+    width: 4rem;
+    grid-area: "img";
+}
+
+.member-name {
+    grid-area: "name";
+}
+
+.member-info {
+    grid-area: "info";
+}
+
+/* CONTACT */
 .contact-wrapper {
     background-image: url(../img/plant5.jpg);
     background-size: cover;
