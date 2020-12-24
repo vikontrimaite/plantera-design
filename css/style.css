@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 320 */
+.hero-wrapper {
+    background-image: url(../img/plant4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-width: 500px;
+    width: 100%;
+}
+
+.about-wrapper {
+    background-image: url(../img/plant3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-width: 500px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.about-h1 {
+    margin: 0;
+}
+
+.something-wrapper {
+    background-image: url(../img/plant1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-width: 500px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.contact-wrapper {
+    background-image: url(../img/plant5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-width: 500px;
+    width: 100%;
+    opacity: 0.5;
+}
