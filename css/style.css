@@ -11,11 +11,16 @@ body {
 .hero-wrapper {
     background-image: url(../img/plant4.jpg);
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    /* background-repeat: ; */
     height: 100vh;
-    /* min-width: 500px; */
-    width: 100%;
+    /* position: a; */
+    /* min-width: 100vw; */
+    width: 134%;
     color: white;
+
+
+
 }
 
 /* MENU */
@@ -124,6 +129,7 @@ header {
     /* min-width: 500px; */
     width: 100%;
     opacity: 0.5;
+    width: 134%;
 }
 
 .about-h1 {
@@ -138,6 +144,7 @@ header {
     /* min-width: 500px; */
     width: 100%;
     opacity: 0.5;
+    width: 134%;
 }
 
 .contact-wrapper {
@@ -148,4 +155,5 @@ header {
     /* min-width: 500px; */
     width: 100%;
     opacity: 0.5;
+    width: 134%;
 }
