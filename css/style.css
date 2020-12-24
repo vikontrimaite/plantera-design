@@ -18,6 +18,8 @@ body {
     /* min-width: 100vw; */
     width: 134%;
     color: white;
+    /* margin: 0;
+    padding: 0; */
 
 
 
@@ -26,7 +28,7 @@ body {
 /* MENU */
 header {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     /* position: relative; */
 }
 
@@ -43,6 +45,7 @@ header {
 
 .dropbtn {
     margin-top: 1rem;
+    margin-left: 1rem;
     /* text-decoration: none; */
     /* color: inherit; */
 }
@@ -51,18 +54,21 @@ header {
 .dropdown {
     position: relative;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row; */
   }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    top: 50px;
-    min-width: 100vw;
+    top: 60px;
+    /* left: 50px; */
+    /* min-width: 100vw; */
+    /* width: 300px; */
     z-index: 1;
     overflow: hidden;
     background-color: white;
     opacity: 0.4;
+    /* align-self: stretch; */
 }
 
 .dropdown-content a {
@@ -82,7 +88,7 @@ header {
 
 .dropdown:hover .dropdown-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 /* HERO TEXT */
@@ -129,7 +135,7 @@ header {
     /* min-width: 500px; */
     width: 100%;
     opacity: 0.5;
-    width: 134%;
+    width: 100%;
 }
 
 .about-h1 {
@@ -144,7 +150,7 @@ header {
     /* min-width: 500px; */
     width: 100%;
     opacity: 0.5;
-    width: 134%;
+    width: 100%;
 }
 
 .contact-wrapper {
@@ -155,5 +161,5 @@ header {
     /* min-width: 500px; */
     width: 100%;
     opacity: 0.5;
-    width: 134%;
+    width: 100%;
 }
