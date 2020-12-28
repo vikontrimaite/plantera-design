@@ -8,6 +8,7 @@ Page published [here](https://vikontrimaite.github.io/plantera-design/)
 * dropdown menu
 * hover effects ÷ transition
 * pseudo elements
+* transparent background image
 
 ## Project author
 [Vilija Kontrimaitė](https://github.com/vikontrimaite)
