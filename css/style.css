@@ -8,6 +8,16 @@ body {
 
 /* (min-width : 320px) */
 
+h1 {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    padding: 2rem 1rem 1rem 1rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+}
+
+
 /* HERO */
 .hero-wrapper {
     /* background-image: url(../img/plant4.jpg); */
@@ -122,8 +132,8 @@ header {
 
 .hero-h1 {
     /* text-align: center; */
-    font-family: 'Pacifico', cursive;
-    font-size: 3rem;
+    /* font-family: 'Pacifico', cursive; */
+    /* font-size: 3rem; */
     color: #fca311;
     
 }
@@ -160,8 +170,11 @@ header {
     position: relative;
     height: 100vh;
     width: 100%;
-    display: grid;
-    place-items: center;
+    /* display: grid;
+    place-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-wrapper::before {
@@ -176,14 +189,21 @@ header {
     opacity: 0.5;
 }
 
-.about-h1 {
+/* .about-h1 {
     margin: 0;
     position: relative;
-}
+    text-align: center;
+} */
+/* .team-main-h1 {
+    margin: 0;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+} */
 
 .about-parag {
     position: relative;
-    margin: 0 3rem 0 3rem;
+    margin: 3rem;
     background-color: white;
     padding: 1rem;
     border-radius: .5rem;
@@ -193,34 +213,28 @@ header {
 .team-wrapper {
     position: relative;
     background-position: center;
-    /* max-height: 250vh; */
     /* height: 100vh; */
     width: 100%;
-    /* place-items: center; */
-    
 }
 
 .team-wrapper::before {
     content: "";
     background-image: url(../img/plant1.jpg);
     background-size: cover;
-    /* background-repeat: no-repeat; */
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     opacity: 0.5;
-    /* max-height: 250vh; */
-    /* overflow: hidden; */
 }
 
-.team-main-h1 {
+/* .team-main-h1 {
     margin: 0;
     position: relative;
     text-align: center;
     padding: 1rem;
-}
+} */
 
 .all-members-box {
     display: flex;
@@ -334,12 +348,18 @@ header {
     opacity: 0.5;
 }
 
-.gallery-h1 {
+/* .gallery-h1 {
     margin: 0;
     position: relative;
     text-align: center;
     padding: 1rem;
-}
+} */
+/* .about-h1 {
+    margin: 0;
+    position: relative;
+    text-align: center;
+} */
+
 
 .gallery-container {
     display: grid;
@@ -379,6 +399,26 @@ header {
 .plant-name:hover {
     opacity: 1;
     transition: opacity 450ms ease-in-out;
+}
+
+/* SECRET MESSAGE */
+.secret-wrapper {
+    position: relative;
+    background-position: center;
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.secret-wrapper::before {
+    content: "";
+    background-image: url(../img/plant8.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
 }
 
 /* CONTACT */
