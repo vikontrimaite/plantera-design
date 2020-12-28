@@ -18,12 +18,14 @@ h1 {
 }
 
 h1::before {
-    content: '⚞ ';
+    /* content: '⚞ '; */
+    content: '― ';
 }
 
 h1::after {
     content: ' ⚟';
     /* font-size: 2.5rem; */
+    content: ' ―';
 }
 
 .hidden {
@@ -507,16 +509,19 @@ header {
 .contact-form {
     position: relative;
     /* padding: .5rem 1.5rem; */
+    /* justify-content: flex-start; */
+    /* align-content: center; */
 }
 
 .form-item {
     position: relative;
     display: flex;
-    justify-content: flex-start;
-    align-content: center;
+    justify-content: center;
+    /* align-content: center; */
     /* margin: auto auto; */
     /* padding-left: 1rem; */
     
+    /* su justify-content: flex-start; viskas išsilygiuoja pagal kairė kraštą, bet nepasidaro per centrą, o su justify-content: center; viskas centre, bet 'message' neišlygiuotas */
     
 }
 
@@ -635,6 +640,20 @@ textarea:focus {
     text-decoration: none;
     color: #009745;
     font-weight: bold;
+}
+
+.copyright > span::before {
+    /* content: '∣';
+    color: violet; */
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    transform: translateY(-50%);
 }
 
 .footer-txt {
