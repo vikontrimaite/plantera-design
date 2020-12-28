@@ -17,6 +17,10 @@ h1 {
     font-size: 3rem;
 }
 
+.hidden {
+    display: none;
+}
+
 
 /* HERO */
 .hero-wrapper {
@@ -392,11 +396,12 @@ header {
 .secret-wrapper {
     position: relative;
     background-position: center;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* padding-bottom: 2rem; */
 }
 
 .secret-wrapper::before {
@@ -417,7 +422,7 @@ header {
 }
 
 .secret-button {
-    position: relative;
+    /* position: relative; */
     /* text-align: center; */
     max-width: 120px;
     padding: .5rem 1.2rem;
@@ -431,6 +436,7 @@ header {
     cursor: pointer;
     opacity: 0.8;
     border-radius: 1rem;
+    align-self: center;
 }
 
 .secret-button:hover {
@@ -444,8 +450,10 @@ header {
     padding: .5rem;
     border-radius: .5rem;
     position: relative;
-    width: 40%;
     opacity: 0.8;
+    align-self: center;
+    min-width: 200px;
+    max-width: 300px;
 }
 
 .secret-text {

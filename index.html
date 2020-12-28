@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planteras</title>
+    <title>Plantera</title>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -107,8 +107,9 @@
     <div class="secret-wrapper">
         <h1 class="secret-h1">Secret message</h1>
         <p class="secret-instructions">Click the button below to reveal the secret message</p>
-        <button class="secret-button">Click me</button>
-        <div class="secret-box">
+        <button class="secret-button" 
+       id="secret-btn" onclick="showMessage()">Click me</button>
+        <div class="hidden" id="secret-msg">
             <p class="secret-text">Congratulations! You have just won a plant of your choice!</p>
         </div>
     </div>
@@ -149,7 +150,8 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam molestias dolorem quaerat excepturi eum similique quos natus expli.
             </p>
-            </p>
+
+            <script src="./js/main.js"></script>
         </div>
     </footer>
 </body>
