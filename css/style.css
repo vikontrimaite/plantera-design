@@ -714,4 +714,13 @@ textarea:focus {
         /* display: flex; */
         font-size: 2rem;
     }
+
+    /* CHANGE MIN HEIGHT */
+    .team-wrapper {
+        height: 100vh;
+    }
+
+    .gallery-wrapper {
+        height: 100vh;
+    }
 }
